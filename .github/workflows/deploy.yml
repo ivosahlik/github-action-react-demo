@@ -1,6 +1,5 @@
 name: Deployment - test on job
-on:
-  workflow_dispatch:
+on: [push, workflow_dispatch]
 #  push:
 #    branches:
 #      - main
